@@ -31,8 +31,8 @@ jobs:
       - name: 모델 복원
         run: |
           az ml model download \
-            --resource-group Practical-MLOps-Chapter4 \
-            --workspace-name Practical-MLOps-Chapter4 \
+            --resource-group hwi2337-rg \
+            --workspace-name lkj \
             --name RoBERTa-SequenceClassification \
             --version 1 \
             --download-path . && \
